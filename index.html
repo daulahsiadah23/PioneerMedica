@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pioneer Medica Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-list">
+          <li class="company-name"><a href="#home">Pioneer Medica</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#profile">Profil</a></li>
+          <li><a href="#vision-mission">Visi & Misi</a></li>
+          <li><a href="#products">Produk Terbaik</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="card">
+        <h1>Welcome to Pioneer Medica Group</h1>
+        <img src="assets/hero-img1.jpg" alt="Hero Image" class="hero-image" />
+        <p>
+          Selamat datang di Pioneer Medica Website, tempat di mana inovasi dan
+          kualitas bertemu untuk memberikan solusi medis terbaik bagi Anda. Kami
+          berkomitmen untuk meningkatkan kesehatan dan kesejahteraan masyarakat
+          melalui produk-produk medis unggulan dan layanan yang terpercaya.
+        </p>git init
+
+      </section>
+
+      <section id="profile" class="card">
+        <h2>Profil Perusahaan</h2>
+        <iframe
+        width="100%"
+        height="315"
+        src="https://www.youtube.com/embed/7EKP9biAzbU?si=NuKFvXhJbv2Cmzrj"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>    
+        <p>
+          Pioneer Medica adalah perusahaan farmasi nasional yang didirikan pada 18 Januari 1994 
+          berdasarkan Akta Pendirian No. 18 Tahun 1994 dan disahkan oleh Kementrian Hukum dan hak 
+          Asasi Manusia Republik Indonesia melalui Surat Keputusan No. AHU-01294.AH.01 Tahun 
+          1994. Pioneer Medica didirikan dengan tujuan menjadi pemimpin di industri farmasi 
+          Indoensia, dengan fous utama pada penyediaan bahan obat obatan berkualitas tinggi serta 
+          layanan kesehatan yang terintegrasi. 
+        </p>
+      </section>
+
+      <section id="vision-mission" class="card">
+        <h2>Visi & Misi</h2>
+        <div class="vision">
+          <h3>Vision</h3>
+          <p>
+            Menjadi perusahaan farmasi piliha utama yang menyediakan solusi kesehatan unggul yang terintegrasi dan inovatif sesuai standar internasional. 
+          </p>
+        </div>
+        <div class="mission">
+          <h3>Mission</h3>
+          <p>
+            Menyediakan solusi kesehatan terintegrasi yang unggul melalui inovasi berkelanjutan dan komitmen pada standar internasional. Dengan memastikan kualitas terbaik di setiap produk, kami berupaya meningkatkan kualitas hidup masyarakat dan mendukung tenaga medis dalam memberikan layanan kesehatan yang aman dan efektif. Kami bertekad menjadi mitra kesehatan terpercaya yang menjunjung tinggi integritas, kolaborasi strategis, dan tanggung jawab sosial dalam setiap langkah kami.
+          </p>
+        </div>
+      </section>
+
+      <section id="products" class="card">
+        <div class="products-header">
+          <h2>Our Products</h2>
+          <a href="products.html" class="show-more-btn">Show More</a>
+        </div>
+        <div class="product-grid"></div>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Kontak Kami</h2>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="subject" placeholder="Subject" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Pioneer Medica. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
